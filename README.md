@@ -2,7 +2,6 @@
 
 This repository provides a Jenkins Shared Library template that enables the reuse of code across multiple Jenkins Pipelines. With shared libraries, developers can encapsulate common logic into functions and classes, making it easier to maintain and apply across various Jenkins projects. This README outlines the steps required to set up, configure, and use a shared library within Jenkins.
 
----
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -10,7 +9,6 @@ This repository provides a Jenkins Shared Library template that enables the reus
 3. [Using the Shared Library in Pipelines](#using-the-shared-library-in-pipelines)
 4. [Important Notes](#important-notes)
 
----
 
 ## Introduction
 
@@ -21,7 +19,6 @@ Jenkins Shared Libraries are a powerful way to organize reusable pipeline code, 
 - **Groovy-based**: Shared libraries are written in Groovy, and each file within the library should have a `.groovy` extension.
 - **Directory Structure**: The core of the shared library resides within the `vars` directory of your repository.
 
----
 
 ## Creating a Shared Library
 
@@ -45,7 +42,6 @@ To set up a shared library in Jenkins:
 4. **Save the Configuration**:
    - After filling in the required details, save the configuration. Jenkins is now ready to utilize the shared library in pipelines.
 
----
 
 ## Using the Shared Library in Pipelines
 
@@ -63,7 +59,6 @@ To utilize the shared library within a Jenkins pipeline:
 2. **Access Library Functions and Classes**:
    - You can now directly invoke functions and classes defined in the shared library in the pipeline.
 
----
 
 ## Important Notes
 
@@ -71,7 +66,6 @@ To utilize the shared library within a Jenkins pipeline:
 - **File Extension**: All shared library files must use the `.groovy` file extension.
 - **Library Naming Convention**: Use a unique and descriptive name for the library to avoid conflicts, especially if multiple shared libraries are in use.
 
----
 
 By following these steps, you can create and use a Jenkins Shared Library, streamlining the pipeline code for enhanced reusability and maintainability.
 
